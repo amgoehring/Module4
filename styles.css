@@ -1,0 +1,139 @@
+/*
+COLOR PALETTE
+
+light grey #DAD7CD
+light green #A3B18A
+mid-green #588157
+green #3A5A40
+darkgreen #344E41
+*/
+
+/* GLOBAL STYLES
+-------------------*/
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #DAD7CD;
+
+}
+
+body {
+    font-family: cursive;
+    text-shadow: #222;
+    font-size: large;
+}
+
+/* links
+--------------*/
+a {
+    color: #a3b18a;
+}
+
+a:hover {
+    color: #DAD7CD;
+    text-decoration: none;
+}
+footer a {
+    color: #DAD7CD;
+}
+footer a:hover {
+    color: #a3b18a;
+}
+/* Home
+------------------*/
+.home {
+    background: url(../images/sharon-mccutcheon-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.home .content-wrapper {
+background: rgb(255 255 255 / 0.9);
+flex: 1 0 auto;
+}
+
+.btn {
+    background: #a3b18a;
+    color:#DAD7CD;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+/* Resume
+-------------*/
+
+.resume header::before {
+    background:url(../images/sharon-mccutcheon-unsplash.jpg) center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   content: "";
+   display: block;
+   height: 350px; 
+    
+}
+.resume-section {
+    margin-bottom: 50px;
+
+}
+
+.resume-section {
+    border-bottom: 2px dashed #a3b18a;
+}
+
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+
+/* Profile
+-------------*/
+
+/* Projects
+---------------*/
+image {
+    max-height: 100px;
+    max-width: fit-content;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+/*Work Experience
+-------------------*/
+
+/* Education
+-------------------*/
+
+
+/* Footer
+------------------------*/
+footer {
+    background: #222;
+    color: #a3b18a
+}
+
+
+
